@@ -16,6 +16,7 @@ export const path = {
 	},
 	src: {
 		html: `${srcFolder}/*.pug`,
+		sass: `${srcFolder}/sass/style.sass`,
 		scss: `${srcFolder}/scss/style.scss`,
 		js: `${srcFolder}/js/app.js`,
 		svg: `${srcFolder}/img/**/*.svg`,
@@ -25,6 +26,7 @@ export const path = {
 	},
 	watch: {
 		html: `${srcFolder}/**/*.pug`,
+		sass: `${srcFolder}/sass/**/*.sass`,
 		scss: `${srcFolder}/scss/**/*.scss`,
 		js: `${srcFolder}/js/**/*.js`,
 		images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,svg,ico}`,
