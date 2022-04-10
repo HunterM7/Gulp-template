@@ -1,24 +1,2 @@
 @import "_normalize";
 @import "fonts";
-
-body {
-	background-color: #333;
-	background: url('@img/logo.png') no-repeat ;
-	font-family: "Gilroy", sans-serif;
-
-	span {
-		color: red;
-	}
-}
-
-@media (max-width: 768px) {
-	span {
-		font-size: 12px;
-	}
-}
-
-@media (max-width: 768px) {
-	body {
-		background-color: #fff;
-	}
-}
