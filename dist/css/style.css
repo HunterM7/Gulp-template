@@ -91,11 +91,44 @@ h6 {
   font-weight: 400;
 }
 
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-display: swap;
+  src: url("../fonts/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
 .no-webp body {
-  background-image: url("../img/logo.png"); }
+  background: url("../img/logo.png") no-repeat; }
 
 body {
   background-color: #333;
+  font-family: "Gilroy", sans-serif;
 }
 
 body span {
@@ -112,4 +145,4 @@ body span {
   }
 }
 
-.webp body { background-image: url(../img/logo.webp); }
+.webp body { background: url(../img/logo.webp) no-repeat; }

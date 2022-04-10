@@ -1,8 +1,10 @@
 @import "_normalize";
+@import "fonts";
 
 body {
 	background-color: #333;
-	background-image: url('@img/logo.png');
+	background: url('@img/logo.png') no-repeat ;
+	font-family: "Gilroy", sans-serif;
 
 	span {
 		color: red;
