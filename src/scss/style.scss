@@ -1,0 +1,22 @@
+@import "_normalize";
+
+body {
+	background-color: #333;
+	background-image: url('@img/logo.png');
+
+	span {
+		color: red;
+	}
+}
+
+@media (max-width: 768px) {
+	span {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		background-color: #fff;
+	}
+}
